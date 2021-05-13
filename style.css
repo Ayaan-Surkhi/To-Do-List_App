@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Itim", cursive;
+}
+
+body {
+  background-color: #f58c37;
+}
+
+header {
+  text-align: center;
+  background-color: #1ea9e0;
+  color: #f0f321;
+  font-size: 30px;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+.main h3 {
+  font-size: 60px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.main .todos {
+  background-color: #ecdfdf;
+  position: relative;
+  bottom: 10px;
+  width: 500px;
+  font-size: 30px;
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.main .todos #todo-list .whole-todo {
+  margin-top: 20px;
+}
+
+.main .todos #todo-list .new-todo {
+  display: inline-block;
+  outline: none;
+  width: 250px;
+}
+
+.main .todos #todo-list .check {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 300px;
+  color: #2de215;
+}
+
+.main .todos #todo-list .undo {
+  display: none;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 300px;
+  color: #208ce4;
+}
+
+.main .todos #todo-list .edit {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 350px;
+  color: #208ce4;
+}
+
+.main .todos #todo-list .delete {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 400px;
+  color: red;
+}
+
+.main .todos .point {
+  display: inline-block;
+  color: #e63e3e;
+}
+
+.main #new {
+  width: 500px;
+  position: relative;
+  bottom: 13px;
+  border: none;
+  outline: none;
+  height: 50px;
+  background-color: #eeb9b9;
+  font-size: 20px;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

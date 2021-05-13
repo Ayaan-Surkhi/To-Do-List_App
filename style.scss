@@ -1,0 +1,108 @@
+// imports
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+// variables
+$main-font: 'Itim', cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+}
+
+body{
+  background-color: rgb(245, 140, 55);
+}
+
+header{
+  text-align: center;  
+  background-color: rgb(30, 169, 224);
+  color: rgb(240, 243, 33);
+  font-size: 30px;
+}
+
+.main{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+
+  h3{
+    font-size: 60px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+  }
+
+  .todos{
+    background-color: rgb(236, 223, 223);
+    position: relative;
+    bottom: 10px;
+    // left: 10px;
+    width: 500px;
+    font-size: 30px;
+    padding: 20px;
+    height: 200px;
+    overflow: auto;
+    word-wrap: break-word;
+
+    #todo-list{  
+
+      .whole-todo{
+        margin-top: 20px;
+      }
+
+      .new-todo{
+        display: inline-block;
+        outline: none;
+        width: 250px;
+        // border-right: 3px white solid;
+      }
+
+      .check{
+        position: sticky;
+        left: 300px;
+        color: rgb(45, 226, 21); 
+      }
+
+      .undo{
+        display: none;
+        position: sticky;
+        left: 300px;
+        color: rgb(32, 140, 228);
+      }
+
+      .edit{
+        position: sticky;
+        left: 350px;
+        color: rgb(32, 140, 228);
+      }
+
+      .delete{
+        position: sticky;
+        left: 400px;
+        color: red;
+      }
+    }
+          
+    .point{
+      display: inline-block;
+      color: rgb(230, 62, 62);
+    }
+  }
+
+  #new{
+    width: 500px;
+    position: relative;
+    bottom: 13px;
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: rgb(238, 185, 185);
+    font-size: 20px;
+    padding: 10px;
+  }
+}
