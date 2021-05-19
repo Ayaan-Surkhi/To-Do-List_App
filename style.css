@@ -30,20 +30,22 @@ header {
   margin-top: 5%;
 }
 
+.main .todo-interface {
+  width: 500px;
+}
+
 .main h3 {
   font-size: 60px;
   color: white;
   background-color: #333;
   text-align: center;
   margin-bottom: 10px;
-  width: 500px;
 }
 
 .main .todos {
   background-color: #ecdfdf;
   position: relative;
   bottom: 10px;
-  width: 500px;
   font-size: 30px;
   padding: 20px;
   height: 200px;
@@ -105,5 +107,98 @@ header {
   background-color: #eeb9b9;
   font-size: 20px;
   padding: 10px;
+}
+
+@media all and (max-width: 580px) {
+  header {
+    font-size: 25px;
+  }
+  .todo-interface {
+    width: 450px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .todo-interface {
+    max-width: 450px;
+  }
+  #new {
+    max-width: 450px;
+  }
+  .main .todos #todo-list .check {
+    left: 200px;
+    right: 110px;
+  }
+  .main .todos #todo-list .undo {
+    left: 200px;
+    right: 110px;
+  }
+  .main .todos #todo-list .edit {
+    left: 320px;
+  }
+  .main .todos #todo-list .delete {
+    left: 370px;
+  }
+}
+
+@media all and (max-width: 470px) {
+  header {
+    font-size: 20px;
+  }
+  .todo-interface {
+    max-width: 400px;
+  }
+  #new {
+    max-width: 400px;
+  }
+  .main .todos #todo-list .check {
+    left: 230px;
+  }
+  .main .todos #todo-list .undo {
+    left: 0px;
+  }
+  .main .todos #todo-list .edit {
+    left: 0px;
+  }
+  .main .todos #todo-list .delete i {
+    left: 0px;
+    bottom: 1000px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  header {
+    font-size: 18px;
+  }
+  .todo-interface {
+    max-width: 320px;
+  }
+  #new {
+    max-width: 320px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  header {
+    font-size: 16px;
+  }
+  .todo-interface {
+    max-width: 300px;
+  }
+  #new {
+    max-width: 300px;
+  }
+}
+
+@media all and (max-width: 280px) {
+  header {
+    font-size: 14px;
+  }
+  .todo-interface {
+    max-width: 240px;
+  }
+  #new {
+    max-width: 240px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
