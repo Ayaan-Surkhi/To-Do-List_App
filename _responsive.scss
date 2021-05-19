@@ -1,0 +1,139 @@
+// media queries
+@media all and (max-width: 580px){
+    header{
+      font-size: 25px;
+    }
+  
+    .todo-interface{
+      width: 450px;
+    }
+  }
+  
+  @media all and (max-width: 540px){
+    .todo-interface{
+      max-width: 450px;
+    }
+  
+    #new{
+      max-width: 450px;
+    }
+
+    // .check{
+    //   position: relative;
+      // left: 200px;
+    // }
+
+    // .undo{
+    //   position: relative;
+      // left: 200px;
+    // }
+
+    // .edit{
+    //   position: relative;
+      // left: 250px;
+    // }
+
+    // .delete{
+    //   position: relative;
+      // left: 300px;
+    // }
+
+    .main .todos #todo-list .check {
+      left: 200px;
+      right: 110px;
+    }    
+
+    .main .todos #todo-list .undo {
+      left: 200px;
+      right: 110px;
+    }    
+    
+    .main .todos #todo-list .edit {
+      left: 320px;
+      // right: 60px;
+      // bottom: 5px;
+    }    
+
+    .main .todos #todo-list .delete {
+      left: 370px;
+      // bottom: 107px;
+    }    
+  }
+  
+  @media all and (max-width: 470px){
+    header{
+      font-size: 20px;
+    }
+    
+    .todo-interface{
+      max-width: 400px;
+    }
+  
+    #new{
+      max-width: 400px;
+    }
+
+    .main .todos #todo-list .check {
+      left: 230px;
+      // right: 80px;
+    }    
+
+    .main .todos #todo-list .undo {
+      left: 0px;
+      // right: 80px;
+    }    
+
+    .main .todos #todo-list .edit {
+      left: 0px;
+      // right: 200px;
+    }    
+
+    .main .todos #todo-list .delete i{
+      left: 0px;
+      // right: 50px;
+      bottom: 1000px;
+    }    
+
+  }
+  
+  @media all and (max-width: 390px){
+    header{
+      font-size: 18px;
+    }
+    
+    .todo-interface{
+      max-width: 320px;
+    }
+  
+    #new{
+      max-width: 320px;
+    }
+  }
+  
+  @media all and (max-width: 320px){
+    header{
+      font-size: 16px;
+    }
+    
+    .todo-interface{
+      max-width: 300px;
+    }
+  
+    #new{
+      max-width: 300px;
+    }
+  }
+  
+  @media all and (max-width: 280px){
+    header{
+      font-size: 14px;
+    }
+    
+    .todo-interface{
+      max-width: 240px;
+    }
+  
+    #new{
+      max-width: 240px;
+    }
+  }
