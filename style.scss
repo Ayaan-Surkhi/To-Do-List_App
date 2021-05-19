@@ -28,21 +28,22 @@ header{
   justify-content: center;
   margin-top: 5%;
 
+  .todo-interface{
+    width: 500px;
+  }
+
   h3{
     font-size: 60px;
     color: white;
     background-color: #333;
     text-align: center;
     margin-bottom: 10px;
-    width: 500px;
   }
 
   .todos{
     background-color: rgb(236, 223, 223);
     position: relative;
     bottom: 10px;
-    // left: 10px;
-    width: 500px;
     font-size: 30px;
     padding: 20px;
     height: 200px;
@@ -59,7 +60,6 @@ header{
         display: inline-block;
         outline: none;
         width: 250px;
-        // border-right: 3px white solid;
       }
 
       .check{
@@ -86,8 +86,7 @@ header{
         left: 400px;
         color: red;
       }
-    }
-          
+        
     .point{
       display: inline-block;
       color: rgb(230, 62, 62);
@@ -106,3 +105,5 @@ header{
     padding: 10px;
   }
 }
+
+@import 'responsive';
