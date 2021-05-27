@@ -46,7 +46,6 @@ if(localStorage.length !== 0){
     const newTodo = document.createElement('div');
     newTodo.setAttribute('class', 'whole-todo');
     deafualtText.innerHTML = '';
-    // newTodo.innerHTML =  `<p class = 'point'>\u2022</p> <div class = 'new-todo' id = 'new-todo-${todos.length}'> <p>${value.todo}</p> <h6 class="time">${value.time}</h6> </div><i class="far fa-check-square check" id = 'check-${todos.length}'></i> <i class="fas fa-undo undo" id = 'undo-${todos.length}'></i> <i class="fas fa-edit edit" id = 'edit-${todos.length}'></i> <i class="fas fa-trash-alt delete" id = 'delete-${todos.length}'></i>`;
     newTodo.innerHTML =  `<p class = 'point'>\u2022</p> <div class = 'new-todo'> <p class="todo" id = 'new-todo-${todos.length}'>${value.todo}</p> <h6 class="time">${value.time}</h6> </div><i class="far fa-check-square check" id = 'check-${todos.length}'></i> <i class="fas fa-undo undo" id = 'undo-${todos.length}'></i> <i class="fas fa-edit edit" id = 'edit-${todos.length}'></i> <i class="fas fa-trash-alt delete" id = 'delete-${todos.length}'></i>`;
     list.appendChild(newTodo);
     const newText = document.getElementById(`new-todo-${todos.length}`);
