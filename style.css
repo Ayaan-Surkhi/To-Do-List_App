@@ -53,6 +53,16 @@ header {
   word-wrap: break-word;
 }
 
+.main .todos #todo-list .todo {
+  display: inline;
+  outline: none;
+}
+
+.main .todos #todo-list .time {
+  display: inline;
+  font-size: 10px;
+}
+
 .main .todos #todo-list .whole-todo {
   margin-top: 20px;
 }
