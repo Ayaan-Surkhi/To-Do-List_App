@@ -52,6 +52,16 @@ header{
 
     #todo-list{  
 
+      .todo{
+        display: inline;
+        outline: none;
+      }
+
+      .time{
+        display: inline;
+        font-size: 10px;
+      }
+
       .whole-todo{
         margin-top: 20px;
       }
@@ -86,7 +96,8 @@ header{
         left: 400px;
         color: red;
       }
-        
+    }
+    
     .point{
       display: inline-block;
       color: rgb(230, 62, 62);
