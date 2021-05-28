@@ -3,4 +3,4 @@ A to-do list app  where a user can write down all the things he has to do
 
 Demo: https://ayaan-surkhi.github.io/To-Do-List_App/
 
-![To-Do-List_App](To-do-List_App.png)
+![To-Do-List_App](To-Do-List_App.png)
